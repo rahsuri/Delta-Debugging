@@ -18,4 +18,4 @@ Now, we can proceed with running our Delta Debugging program. To do this, we can
 <pre>$ python3 delta-libpng.py x</pre>
 Where x is any value from 0-1638. This x value represents how many files we want to input into our program.
 <br>
-Warning: This could take multiple hours to run depending on your computing environment!
+Warning: This could take multiple hours to run depending on your computing environment! Run a low number to make sure this does not happen.
