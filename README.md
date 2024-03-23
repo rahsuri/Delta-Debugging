@@ -5,17 +5,17 @@ This was a cool project I made in my Software Engineering class that used the me
 
 <h3>Tutorial</h3>
 To run this program, first extract the files and move both the large-png-suite file as well as the delta-libpng.py file into the libpng-1.6.34 file. Next, switch the directory to libpng-1.6.34.
-
+<br>
 Next, we need to download the latest version of a compression library. To do this, run:
 <pre>$ sudo apt-get install libz-dev </pre>
 Please also make sure you have python3 (version 3.5.2+) installed
-
+<br>
 Next, lets prepare our libpng program for running. To do this, we can run both of these commands:
 <pre>$ sh ./configure CFLAGS="--coverage -static"</pre>
 <pre>$ make clean ; make </pre>
-
+<br>
 Now, we can proceed with running our Delta Debugging program. To do this, we can run the following command:
 <pre>$ python3 delta-libpng.py x</pre>
 Where x is any value from 0-1638. This x value represents how many files we want to input into our program.
-
+<br>
 Warning: This could take multiple hours to run depending on your computing environment!
